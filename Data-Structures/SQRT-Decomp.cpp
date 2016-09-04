@@ -2,7 +2,8 @@
 
 typedef long long int ll;
 using namespace std;
-/**** This would be the first project in the repo ****/ 
+/**** This would be the first project in the repo ****/
+/**** Now Seriously I need to learn git ****/
 
 ll rangesum(vector<ll> data,vector<ll> decomp,ll len,ll l,ll r){
           ll sum=0;
