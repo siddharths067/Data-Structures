@@ -2,6 +2,7 @@
 
 typedef long long int ll;
 using namespace std;
+/**** This would be the first project in the repo ****/ 
 
 ll rangesum(vector<ll> data,vector<ll> decomp,ll len,ll l,ll r){
           ll sum=0;
@@ -26,13 +27,13 @@ int main(){
           cin>>data[i],decomp[i/len]+=data[i];
 
 
-     /***** Range Query Example *****/
+     /***** Range Query -SUM  Example *****/
      while(1){
           ll l,r;
           cin>>l>>r;
           if(l==-1&&r==-1)break;
           else cout<<rangesum(data,decomp,len,l,r)<<endl;
      }
-     /***** Range Query Example End *****/
+     /***** Range Query - SUM Example End *****/
 
 }
