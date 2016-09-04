@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-typedef long long int ll;
+typedef long long int ll;   
 /*** The really complicated iterative one ***/
 ll tree[100000]={0};
 ll n;

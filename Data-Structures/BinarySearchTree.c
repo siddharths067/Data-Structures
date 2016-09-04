@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*** Binary Search Tree : My Favorite Data-Structure ***/
+/*** Binary Search Tree :  My Favorite Data-Structure ***/
 struct  Node;
 typedef long long int ll;
 struct Node{

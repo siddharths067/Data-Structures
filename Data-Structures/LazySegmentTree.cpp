@@ -3,7 +3,7 @@
 typedef long long int ll;
 using namespace std;
 ll arr[MAX],Tree[3*MAX],lazy[2*MAX];
-
+  
 /**** The Recursive Segment Tree ****/
 
 void Build(ll s, ll start, ll end)
